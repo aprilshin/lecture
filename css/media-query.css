@@ -23,6 +23,7 @@ figure{
   .img-wrap{
     margin: 1em;
   }
+}
 /* 태블릿 디바이스 - 600px 부터 1024px 까지 */
 @media screen and (min-width: 600px) and (max-width: 1024px){
   body
@@ -38,7 +39,6 @@ figure{
     box-sizing: border-box; 
   }
 }
-
 /* 데스크탑 디바이스 - 1025px 이상 */
 @media screen and (min-width: 1025px){
   body{
@@ -49,8 +49,8 @@ figure{
     flex-wrap: wrap;
   }
   .img-wrap{
-    width: 33.3333333%;
+    width: 25%;
     padding: 1em;
-    
+    box-sizing: border-box;
   }
 }
