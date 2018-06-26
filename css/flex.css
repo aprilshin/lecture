@@ -17,22 +17,18 @@
 .w1{
   order: 1;
   flex-shrink: 1;
-  border: 1px solid red;
   flex-grow: 2;
 }
 .w2{
   flex-shrink: 2;
-  border: 1px solid red;
   flex-grow: 3;
 }
 .w3{
   order: -1;
   flex-shrink: 0;
-  border: 1px solid red;
   flex-grow: 0;
 }
 .w4{
   flex-shrink: 1;
-  border: 1px solid red;
   flex-grow: 1;
 }
